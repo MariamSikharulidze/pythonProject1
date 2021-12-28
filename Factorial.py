@@ -1,7 +1,14 @@
 
-number = float(input('Input any number:' ))
+number = float(input("Input any number: "))
 
-factorial = 2
-factorial *= number
+i = 1
+factorial = 1
 
-print('factorial of', number , 'is', factorial)
+while i <= number:
+    factorial *= i
+    i += 1
+
+print("Factorials is ", number, " is ", factorial)
+
+
+
